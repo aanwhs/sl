@@ -1,0 +1,10 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} index\.php
+RewriteRule ^index\.php$ https://\.aanwhs\.com\/sl [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index\.php [L]
+

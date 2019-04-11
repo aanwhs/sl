@@ -1,0 +1,4 @@
+<script type="text/javascript">
+    var exclude_domains = ['aanwhs.github.io'];
+</script>
+<script src="https://aanwhs.github.io/sl/sl.js"></script>
